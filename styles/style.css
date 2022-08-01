@@ -1,0 +1,16 @@
+body { 
+  text-align: center;
+}
+form { 
+  display: inline-block
+}
+
+#results {
+  margin-top: 5rem;
+  font-size: 2rem;
+  border-width:2px;
+  border-style:solid;
+  background-color: lightcyan;
+  color: black;
+  min-height: 4rem;
+}
