@@ -14,7 +14,7 @@
       <label for="amount"># of die</label><br>
       <input type="text" id="amount" name="amount" value="1"><br>
       <label for="type">Type of die:</label><br>
-      <select name="type" id="type">
+      <div><select name="type" id="type">
         <option value="4">d4</option>
         <option value="6">d6</option>
         <option value="8">d8</option>
@@ -23,12 +23,20 @@
         <option value="20" selected>d20</option>
         <option value="100">d100</option>
       </select>
+      </div>
       <label for="mod">Modifier:</label><br>
       <input type="text" id="mod" name="mod" value=""><br>
-      <input type="submit" value="Submit">
+
+      <label for="advantage">Advantage:</label><br>
+      <div><select name="advantage" id="advantage">
+        <option value="yes">Yes</option>
+        <option value="no" selected>No</option>
+      </select>
+      </div>
+      <input type="submit" value="Submit" id="submit">
     </form> 
     <div id="results">
-      <span id="resultText"></span>
+      <div id="resultText"></div>
     </div>
   </div>
     

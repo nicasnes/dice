@@ -14,3 +14,11 @@ form {
   color: black;
   min-height: 4rem;
 }
+
+#submit { 
+  margin: 20px;
+}
+
+#advantageText { 
+  color: green
+}
